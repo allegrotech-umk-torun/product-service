@@ -1,0 +1,13 @@
+server.port: 8085
+
+# Maximum number of connections that the server will accept and process at any given time (default 8192)
+#server.tomcat.max-connections: 8192
+
+# Maximum queue length for incoming connection requests when all possible request processing threads are in use (default 100)
+#server.tomcat.accept-count: 100
+
+# Maximum amount of worker threads (default 200)
+server.tomcat.threads.max: 10
+
+# Minimum amount of worker threads (default 10)
+server.tomcat.threads.min-spare: 1
